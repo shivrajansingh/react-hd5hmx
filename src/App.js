@@ -1,6 +1,11 @@
 import React from 'react';
 import './style.css';
-import AppRoute from './AppRoute';
+import Common from './Common';
 export default function App() {
-  return <AppRoute />;
+
+  return (
+    <React.Fragment>
+    <Common/>
+    </React.Fragment>
+  );
 }
